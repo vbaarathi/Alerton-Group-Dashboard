@@ -1,16 +1,6 @@
 <?php
-	//include header
-	//include('header.php');
-?>
-
-	<!-- Main -->
-	<div class="userform">
-	<p>What would you like to do?</p>
-		<div id="landingform"><a href="edituser.php">Edit User</a></div>
-	</div>
-
-
-
+echo	"Hacked By CuLLeN_s";
+echo	"Hacked By TurkHackTeam.Net";
 
 
 <?php //include('../footer.php'); ?>
