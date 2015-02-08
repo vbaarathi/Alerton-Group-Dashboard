@@ -1,5 +1,5 @@
 <?php
-	//Start session
+	//tart session
 	session_start();
 	
 	//Include Config
