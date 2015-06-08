@@ -28,7 +28,7 @@
     $query = "UPDATE users SET Name = '$name', Login = '$login' , Email = '$email', admin = '$admin', banned = '$banned' WHERE id = '$id'";
 
 	// Execute Query 
-    $result = mysql_query($query) or die( "An error has ocured: " .mysql_error (). ":" .mysql_errno ());
+    $result = mysql_query($query) or die( "An error has occurred: " .mysql_error (). ":" .mysql_errno ());
 	echo "<br /><br /><br />Database updated. <a href='index.php'>Return to edit info</a><br /><br />";
 	
 	} else {
@@ -37,7 +37,7 @@
     $query = "DELETE users FROM users WHERE id = '$id'";
 	
 	// Execute Query 
-    $result = mysql_query($query) or die( "An error has ocured: " .mysql_error (). ":" .mysql_errno ());
+    $result = mysql_query($query) or die( "An error has occurred: " .mysql_error (). ":" .mysql_errno ());
 	echo "<br /><br /><br />User has been deleted. <a href='edituser.php'>Return to edit info</a><br /><br />";
 	
 	}	
